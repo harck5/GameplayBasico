@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8826684109923919884}
   - component: {fileID: 8826684110487205997}
   - component: {fileID: 8826684110487205996}
+  - component: {fileID: 8448570196788158498}
   m_Layer: 0
   m_Name: Chick
   m_TagString: Untagged
@@ -83,6 +84,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upperLimit: 20
   lowerLimit: -10
+--- !u!65 &8448570196788158498
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826684109914444218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 6.9999995, z: 8}
+  m_Center: {x: 0, y: 3.0000002, z: 0}
 --- !u!1 &8826684109914445234
 GameObject:
   m_ObjectHideFlags: 0

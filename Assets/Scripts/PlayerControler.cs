@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
 {
-    public float speed = 10f;
+    private float speed = 10f;
     private float horizontalInput;
     private float verticalInput;
-    public float xRange = 16f;
+    private float xRange = 16f;
     public GameObject projectailePrefab;
 
     void Update()
